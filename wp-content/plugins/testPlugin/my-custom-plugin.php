@@ -23,11 +23,11 @@ function CrearMenu()
 {
     add_menu_page(
         'Prueba Tecnica',
-        'Prueba',
+        'Prueba',  // title wordpres
         'manage_options',
-        'sp_menu',
-        'MostrarContenido',
-        plugin_dir_url(__FILE__) . 'admin/task.png',
+        'sp_menu',  // url =>  page=sp_menu
+        'MostrarContenido', 
+        plugin_dir_url(__FILE__) . 'admin/task.png', // icon del panel
         1
     );
 
@@ -249,7 +249,7 @@ function mostrar_datos_api_externa()
 
 /*tarea  5 Crea un widget personalizado que muestre información relacionada con los productos en la barra lateral de la tienda.   
 
-Se encuentra en thenes/twentyTwentyone/functions.php
+Se encuentra en themes/twentyTwentyone/functions.php
 (al final )
 
 

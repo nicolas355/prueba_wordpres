@@ -680,6 +680,7 @@ class Product_Info_Widget extends WP_Widget
 	// Constructor del widget
 	public function __construct()
 	{
+		// 
 		parent::__construct(
 			'product_info_widget',
 			'Product Info Widget',
@@ -720,7 +721,6 @@ class Product_Info_Widget extends WP_Widget
 			echo $args['before_title'] . $title . $args['after_title'];
 		}
 
-		// Aquí puedes incluir la lógica para obtener y mostrar información de productos
 		$product_info = $this->get_product_info(); // Función para obtener información de productos
 
 		if ($product_info) {
