@@ -1,0 +1,135 @@
+2024-01-24T03:39:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "\Test_Plugin\register_product_info_widget" not found or invalid function name in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php en la línea 324
+
+2024-01-24T03:39:55+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "\Test_Plugin\register_product_info_widget" not found or invalid function name in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\prueba\wordpress\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php en la línea 324
+
+2024-01-24T03:39:58+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "\Test_Plugin\register_product_info_widget" not found or invalid function name in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\prueba\wordpress\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php en la línea 324
+
+2024-01-24T03:40:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "\Test_Plugin\register_product_info_widget" not found or invalid function name in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php en la línea 324
+
+2024-01-24T03:40:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "\Test_Plugin\register_product_info_widget" not found or invalid function name in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\prueba\wordpress\wp-admin\customize.php(13): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php en la línea 324
+
+2024-01-24T03:40:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "\Test_Plugin\register_product_info_widget" not found or invalid function name in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php en la línea 324
+
+2024-01-24T03:40:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "\Test_Plugin\register_product_info_widget" not found or invalid function name in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php en la línea 324
+
+2024-01-24T03:40:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "\Test_Plugin\register_product_info_widget" not found or invalid function name in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php en la línea 324
+
+2024-01-24T07:00:08+00:00 CRITICAL Cannot redeclare register_custom_product_widget() (previously declared in C:\xampp\htdocs\prueba\wordpress\wp-content\plugins\testPlugin\my-custom-plugin.php:330) en C:\xampp\htdocs\prueba\wordpress\wp-content\themes\oceanwp\functions.php en la línea 1160
+
+2024-01-24T07:00:08+00:00 CRITICAL Cannot redeclare register_custom_product_widget() (previously declared in C:\xampp\htdocs\prueba\wordpress\wp-content\plugins\testPlugin\my-custom-plugin.php:330) en C:\xampp\htdocs\prueba\wordpress\wp-content\themes\oceanwp\functions.php en la línea 1160
+
+2024-01-24T07:00:13+00:00 CRITICAL Cannot redeclare register_custom_product_widget() (previously declared in C:\xampp\htdocs\prueba\wordpress\wp-content\plugins\testPlugin\my-custom-plugin.php:330) en C:\xampp\htdocs\prueba\wordpress\wp-content\themes\oceanwp\functions.php en la línea 1160
+
+2024-01-24T07:00:30+00:00 CRITICAL Cannot redeclare register_custom_product_widget() (previously declared in C:\xampp\htdocs\prueba\wordpress\wp-content\plugins\testPlugin\my-custom-plugin.php:330) en C:\xampp\htdocs\prueba\wordpress\wp-content\themes\oceanwp\functions.php en la línea 1160
+
+2024-01-24T07:00:32+00:00 CRITICAL Cannot redeclare register_custom_product_widget() (previously declared in C:\xampp\htdocs\prueba\wordpress\wp-content\plugins\testPlugin\my-custom-plugin.php:330) en C:\xampp\htdocs\prueba\wordpress\wp-content\themes\oceanwp\functions.php en la línea 1160
+
+2024-01-24T07:00:34+00:00 CRITICAL Cannot redeclare register_custom_product_widget() (previously declared in C:\xampp\htdocs\prueba\wordpress\wp-content\plugins\testPlugin\my-custom-plugin.php:330) en C:\xampp\htdocs\prueba\wordpress\wp-content\themes\oceanwp\functions.php en la línea 1160
+
