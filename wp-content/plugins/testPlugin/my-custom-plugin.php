@@ -270,5 +270,5 @@ add_shortcode('info', 'product_data');
 
 
 
-/* tarea 6*/
+
 
