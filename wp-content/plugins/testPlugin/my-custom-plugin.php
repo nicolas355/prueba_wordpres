@@ -7,8 +7,8 @@
 
 /* 
 Plugin Name: Test Plugin
-Plugin URI: http://solodata.es
-Description: Este es un plugin de pruebas
+Plugin URI: https://portafolio-nicolas-gonzalez.vercel.app
+Description: Mi plugin personalizado...
 Version: 0.01
 */
 
@@ -246,7 +246,17 @@ function mostrar_datos_api_externa()
 
 
 
-/*Tarea 5-Crea un shortcode que pueda ser utilizado en las páginas o entradas para mostrar información específica de los productos.*/
+
+/*tarea  5 Crea un widget personalizado que muestre información relacionada con los productos en la barra lateral de la tienda.   
+
+Se encuentra en thenes/twentyTwentyone/functions.php
+(al final )
+
+
+*/ 
+
+
+/*Tarea 6-Crea un shortcode que pueda ser utilizado en las páginas o entradas para mostrar información específica de los productos.*/
 
 // short code
 
@@ -266,6 +276,7 @@ function product_data()
 
 // add_shortcode => añadimos la funcion shortcode que recibe el parametro info(que es como activamos nosotros en el shortcode los datos) / [info]  /   , y a la derecha lo que muestra o renderiza.
 add_shortcode('info', 'product_data');
+
 
 
 

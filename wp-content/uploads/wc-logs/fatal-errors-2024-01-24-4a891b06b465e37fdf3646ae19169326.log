@@ -133,3 +133,62 @@ Stack trace:
 
 2024-01-24T07:00:34+00:00 CRITICAL Cannot redeclare register_custom_product_widget() (previously declared in C:\xampp\htdocs\prueba\wordpress\wp-content\plugins\testPlugin\my-custom-plugin.php:330) en C:\xampp\htdocs\prueba\wordpress\wp-content\themes\oceanwp\functions.php en la línea 1160
 
+2024-01-24T15:46:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget-factory.php on line 62 and at least 2 expected in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget.php:163
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('Product_Info_Wi...')
+#2 C:\xampp\htdocs\prueba\wordpress\wp-content\themes\twentytwentyone\functions.php(716): register_widget('Product_Info_Wi...')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): register_product_info_widget('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#11 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget.php en la línea 163
+
+2024-01-24T15:46:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget-factory.php on line 62 and at least 2 expected in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget.php:163
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('Product_Info_Wi...')
+#2 C:\xampp\htdocs\prueba\wordpress\wp-content\themes\twentytwentyone\functions.php(716): register_widget('Product_Info_Wi...')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): register_product_info_widget('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#11 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\prueba\wordpress\wp-admin\customize.php(13): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget.php en la línea 163
+
+2024-01-24T15:46:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget-factory.php on line 62 and at least 2 expected in C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget.php:163
+Stack trace:
+#0 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('Product_Info_Wi...')
+#2 C:\xampp\htdocs\prueba\wordpress\wp-content\themes\twentytwentyone\functions.php(716): register_widget('Product_Info_Wi...')
+#3 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): register_product_info_widget('')
+#4 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\prueba\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#7 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(324): wp_widgets_init('')
+#8 C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\prueba\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\prueba\wordpress\wp-settings.php(643): do_action('init')
+#11 C:\xampp\htdocs\prueba\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\prueba\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\prueba\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\prueba\wordpress\wp-admin\customize.php(13): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown en C:\xampp\htdocs\prueba\wordpress\wp-includes\class-wp-widget.php en la línea 163
+
